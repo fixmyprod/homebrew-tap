@@ -1,28 +1,28 @@
-# Written by scripts/cli-release in fixmyprod/fixmyprod for 0.1.5; edits here are overwritten.
+# Written by scripts/cli-release in fixmyprod/fixmyprod for 0.1.6; edits here are overwritten.
 class Fixmyprod < Formula
   desc "Broken production labs, fixed from your own terminal"
   homepage "https://fixmyprod.com"
-  version "0.1.5"
+  version "0.1.6"
 
   on_macos do
     on_arm do
-      url "https://github.com/fixmyprod/homebrew-tap/releases/download/v0.1.5/fixmyprod_0.1.5_darwin_arm64.tar.gz"
-      sha256 "1f053c81d141b4f9b3a669039fb734737b70f27d9b9382f453a66a1122973b4f"
+      url "https://github.com/fixmyprod/homebrew-tap/releases/download/v0.1.6/fixmyprod_0.1.6_darwin_arm64.tar.gz"
+      sha256 "15a55887ee0c35c330295178789f8a2d9e1a562eef2a5b63eee8748492cafe5c"
     end
     on_intel do
-      url "https://github.com/fixmyprod/homebrew-tap/releases/download/v0.1.5/fixmyprod_0.1.5_darwin_amd64.tar.gz"
-      sha256 "c9b17116d4f3040b6f44373ef152f543cb532a0131375cf471fb26906f204512"
+      url "https://github.com/fixmyprod/homebrew-tap/releases/download/v0.1.6/fixmyprod_0.1.6_darwin_amd64.tar.gz"
+      sha256 "dbbe0dd0ff587d40503827a946993ff70a515a762af717bececa3775e7fcf3d6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fixmyprod/homebrew-tap/releases/download/v0.1.5/fixmyprod_0.1.5_linux_arm64.tar.gz"
-      sha256 "0e5695ce9a4e63d3b73fef23cef82ad5bd7b14652d03c01f5c9d6ffd9efd9bf3"
+      url "https://github.com/fixmyprod/homebrew-tap/releases/download/v0.1.6/fixmyprod_0.1.6_linux_arm64.tar.gz"
+      sha256 "4a620848f3665d863cb76fd1243d166ca6341bca934c48487cce863c2a84ec3e"
     end
     on_intel do
-      url "https://github.com/fixmyprod/homebrew-tap/releases/download/v0.1.5/fixmyprod_0.1.5_linux_amd64.tar.gz"
-      sha256 "d525704df2020b6af96602e8fd7949d52656263ab04516e889c56a41269db5e2"
+      url "https://github.com/fixmyprod/homebrew-tap/releases/download/v0.1.6/fixmyprod_0.1.6_linux_amd64.tar.gz"
+      sha256 "c3e31fb9906240987a5dcf97905a6557fbbefd44308252e2b605bbbc57f87ee1"
     end
   end
 
